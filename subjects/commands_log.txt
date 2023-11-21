@@ -1,0 +1,566 @@
+gitpod /workspace/aaa (main) $ git init
+Reinitialized existing Git repository in /workspace/aaa/.git/
+gitpod /workspace/aaa (main) $ mkdir users
+gitpod /workspace/aaa (main) $ cd users
+gitpod /workspace/aaa/users (main) $ for i {1..207}; do echo "dd $i" > "user$i.txt"; done
+bash: syntax error near unexpected token `{1..207}'
+gitpod /workspace/aaa/users (main) $ for i in {1..207}; do echo "dd $i" > "user$i.txt"; done
+gitpod /workspace/aaa/users (main) $ git add .
+gitpod /workspace/aaa/users (main) $ git commit -m "fd"
+[main 5f64434] fd
+ 207 files changed, 207 insertions(+)
+ create mode 100644 users/user1.txt
+ create mode 100644 users/user10.txt
+ create mode 100644 users/user100.txt
+ create mode 100644 users/user101.txt
+ create mode 100644 users/user102.txt
+ create mode 100644 users/user103.txt
+ create mode 100644 users/user104.txt
+ create mode 100644 users/user105.txt
+ create mode 100644 users/user106.txt
+ create mode 100644 users/user107.txt
+ create mode 100644 users/user108.txt
+ create mode 100644 users/user109.txt
+ create mode 100644 users/user11.txt
+ create mode 100644 users/user110.txt
+ create mode 100644 users/user111.txt
+ create mode 100644 users/user112.txt
+ create mode 100644 users/user113.txt
+ create mode 100644 users/user114.txt
+ create mode 100644 users/user115.txt
+ create mode 100644 users/user116.txt
+ create mode 100644 users/user117.txt
+ create mode 100644 users/user118.txt
+ create mode 100644 users/user119.txt
+ create mode 100644 users/user12.txt
+ create mode 100644 users/user120.txt
+ create mode 100644 users/user121.txt
+ create mode 100644 users/user122.txt
+ create mode 100644 users/user123.txt
+ create mode 100644 users/user124.txt
+ create mode 100644 users/user125.txt
+ create mode 100644 users/user126.txt
+ create mode 100644 users/user127.txt
+ create mode 100644 users/user128.txt
+ create mode 100644 users/user129.txt
+ create mode 100644 users/user13.txt
+ create mode 100644 users/user130.txt
+ create mode 100644 users/user131.txt
+ create mode 100644 users/user132.txt
+ create mode 100644 users/user133.txt
+ create mode 100644 users/user134.txt
+ create mode 100644 users/user135.txt
+ create mode 100644 users/user136.txt
+ create mode 100644 users/user137.txt
+ create mode 100644 users/user138.txt
+ create mode 100644 users/user139.txt
+ create mode 100644 users/user14.txt
+ create mode 100644 users/user140.txt
+ create mode 100644 users/user141.txt
+ create mode 100644 users/user142.txt
+ create mode 100644 users/user143.txt
+ create mode 100644 users/user144.txt
+ create mode 100644 users/user145.txt
+ create mode 100644 users/user146.txt
+ create mode 100644 users/user147.txt
+ create mode 100644 users/user148.txt
+ create mode 100644 users/user149.txt
+ create mode 100644 users/user15.txt
+ create mode 100644 users/user150.txt
+ create mode 100644 users/user151.txt
+ create mode 100644 users/user152.txt
+ create mode 100644 users/user153.txt
+ create mode 100644 users/user154.txt
+ create mode 100644 users/user155.txt
+ create mode 100644 users/user156.txt
+ create mode 100644 users/user157.txt
+ create mode 100644 users/user158.txt
+ create mode 100644 users/user159.txt
+ create mode 100644 users/user16.txt
+ create mode 100644 users/user160.txt
+ create mode 100644 users/user161.txt
+ create mode 100644 users/user162.txt
+ create mode 100644 users/user163.txt
+ create mode 100644 users/user164.txt
+ create mode 100644 users/user165.txt
+ create mode 100644 users/user166.txt
+ create mode 100644 users/user167.txt
+ create mode 100644 users/user168.txt
+ create mode 100644 users/user169.txt
+ create mode 100644 users/user17.txt
+ create mode 100644 users/user170.txt
+ create mode 100644 users/user171.txt
+ create mode 100644 users/user172.txt
+ create mode 100644 users/user173.txt
+ create mode 100644 users/user174.txt
+ create mode 100644 users/user175.txt
+ create mode 100644 users/user176.txt
+ create mode 100644 users/user177.txt
+ create mode 100644 users/user178.txt
+ create mode 100644 users/user179.txt
+ create mode 100644 users/user18.txt
+ create mode 100644 users/user180.txt
+ create mode 100644 users/user181.txt
+ create mode 100644 users/user182.txt
+ create mode 100644 users/user183.txt
+ create mode 100644 users/user184.txt
+ create mode 100644 users/user185.txt
+ create mode 100644 users/user186.txt
+ create mode 100644 users/user187.txt
+ create mode 100644 users/user188.txt
+ create mode 100644 users/user189.txt
+ create mode 100644 users/user19.txt
+ create mode 100644 users/user190.txt
+ create mode 100644 users/user191.txt
+ create mode 100644 users/user192.txt
+ create mode 100644 users/user193.txt
+ create mode 100644 users/user194.txt
+ create mode 100644 users/user195.txt
+ create mode 100644 users/user196.txt
+ create mode 100644 users/user197.txt
+ create mode 100644 users/user198.txt
+ create mode 100644 users/user199.txt
+ create mode 100644 users/user2.txt
+ create mode 100644 users/user20.txt
+ create mode 100644 users/user200.txt
+ create mode 100644 users/user201.txt
+ create mode 100644 users/user202.txt
+ create mode 100644 users/user203.txt
+ create mode 100644 users/user204.txt
+ create mode 100644 users/user205.txt
+ create mode 100644 users/user206.txt
+ create mode 100644 users/user207.txt
+ create mode 100644 users/user21.txt
+ create mode 100644 users/user22.txt
+ create mode 100644 users/user23.txt
+ create mode 100644 users/user24.txt
+ create mode 100644 users/user25.txt
+ create mode 100644 users/user26.txt
+ create mode 100644 users/user27.txt
+ create mode 100644 users/user28.txt
+ create mode 100644 users/user29.txt
+ create mode 100644 users/user3.txt
+ create mode 100644 users/user30.txt
+ create mode 100644 users/user31.txt
+ create mode 100644 users/user32.txt
+ create mode 100644 users/user33.txt
+ create mode 100644 users/user34.txt
+ create mode 100644 users/user35.txt
+ create mode 100644 users/user36.txt
+ create mode 100644 users/user37.txt
+ create mode 100644 users/user38.txt
+ create mode 100644 users/user39.txt
+ create mode 100644 users/user4.txt
+ create mode 100644 users/user40.txt
+ create mode 100644 users/user41.txt
+ create mode 100644 users/user42.txt
+ create mode 100644 users/user43.txt
+ create mode 100644 users/user44.txt
+ create mode 100644 users/user45.txt
+ create mode 100644 users/user46.txt
+ create mode 100644 users/user47.txt
+ create mode 100644 users/user48.txt
+ create mode 100644 users/user49.txt
+ create mode 100644 users/user5.txt
+ create mode 100644 users/user50.txt
+ create mode 100644 users/user51.txt
+ create mode 100644 users/user52.txt
+ create mode 100644 users/user53.txt
+ create mode 100644 users/user54.txt
+ create mode 100644 users/user55.txt
+ create mode 100644 users/user56.txt
+ create mode 100644 users/user57.txt
+ create mode 100644 users/user58.txt
+ create mode 100644 users/user59.txt
+ create mode 100644 users/user6.txt
+ create mode 100644 users/user60.txt
+ create mode 100644 users/user61.txt
+ create mode 100644 users/user62.txt
+ create mode 100644 users/user63.txt
+ create mode 100644 users/user64.txt
+ create mode 100644 users/user65.txt
+ create mode 100644 users/user66.txt
+ create mode 100644 users/user67.txt
+ create mode 100644 users/user68.txt
+ create mode 100644 users/user69.txt
+ create mode 100644 users/user7.txt
+ create mode 100644 users/user70.txt
+ create mode 100644 users/user71.txt
+ create mode 100644 users/user72.txt
+ create mode 100644 users/user73.txt
+ create mode 100644 users/user74.txt
+ create mode 100644 users/user75.txt
+ create mode 100644 users/user76.txt
+ create mode 100644 users/user77.txt
+ create mode 100644 users/user78.txt
+ create mode 100644 users/user79.txt
+ create mode 100644 users/user8.txt
+ create mode 100644 users/user80.txt
+ create mode 100644 users/user81.txt
+ create mode 100644 users/user82.txt
+ create mode 100644 users/user83.txt
+ create mode 100644 users/user84.txt
+ create mode 100644 users/user85.txt
+ create mode 100644 users/user86.txt
+ create mode 100644 users/user87.txt
+ create mode 100644 users/user88.txt
+ create mode 100644 users/user89.txt
+ create mode 100644 users/user9.txt
+ create mode 100644 users/user90.txt
+ create mode 100644 users/user91.txt
+ create mode 100644 users/user92.txt
+ create mode 100644 users/user93.txt
+ create mode 100644 users/user94.txt
+ create mode 100644 users/user95.txt
+ create mode 100644 users/user96.txt
+ create mode 100644 users/user97.txt
+ create mode 100644 users/user98.txt
+ create mode 100644 users/user99.txt
+gitpod /workspace/aaa/users (main) $ mkdir groups 
+gitpod /workspace/aaa/users (main) $ cd groups
+gitpod /workspace/aaa/users/groups (main) $ for i in {1..69}; do echo "dd $i" > "group$i.txt"; done
+gitpod /workspace/aaa/users/groups (main) $ git add .
+gitpod /workspace/aaa/users/groups (main) $ git commit -m "io"
+[main d10c9f5] io
+ 69 files changed, 69 insertions(+)
+ create mode 100644 users/groups/group1.txt
+ create mode 100644 users/groups/group10.txt
+ create mode 100644 users/groups/group11.txt
+ create mode 100644 users/groups/group12.txt
+ create mode 100644 users/groups/group13.txt
+ create mode 100644 users/groups/group14.txt
+ create mode 100644 users/groups/group15.txt
+ create mode 100644 users/groups/group16.txt
+ create mode 100644 users/groups/group17.txt
+ create mode 100644 users/groups/group18.txt
+ create mode 100644 users/groups/group19.txt
+ create mode 100644 users/groups/group2.txt
+ create mode 100644 users/groups/group20.txt
+ create mode 100644 users/groups/group21.txt
+ create mode 100644 users/groups/group22.txt
+ create mode 100644 users/groups/group23.txt
+ create mode 100644 users/groups/group24.txt
+ create mode 100644 users/groups/group25.txt
+ create mode 100644 users/groups/group26.txt
+ create mode 100644 users/groups/group27.txt
+ create mode 100644 users/groups/group28.txt
+ create mode 100644 users/groups/group29.txt
+ create mode 100644 users/groups/group3.txt
+ create mode 100644 users/groups/group30.txt
+ create mode 100644 users/groups/group31.txt
+ create mode 100644 users/groups/group32.txt
+ create mode 100644 users/groups/group33.txt
+ create mode 100644 users/groups/group34.txt
+ create mode 100644 users/groups/group35.txt
+ create mode 100644 users/groups/group36.txt
+ create mode 100644 users/groups/group37.txt
+ create mode 100644 users/groups/group38.txt
+ create mode 100644 users/groups/group39.txt
+ create mode 100644 users/groups/group4.txt
+ create mode 100644 users/groups/group40.txt
+ create mode 100644 users/groups/group41.txt
+ create mode 100644 users/groups/group42.txt
+ create mode 100644 users/groups/group43.txt
+ create mode 100644 users/groups/group44.txt
+ create mode 100644 users/groups/group45.txt
+ create mode 100644 users/groups/group46.txt
+ create mode 100644 users/groups/group47.txt
+ create mode 100644 users/groups/group48.txt
+ create mode 100644 users/groups/group49.txt
+ create mode 100644 users/groups/group5.txt
+ create mode 100644 users/groups/group50.txt
+ create mode 100644 users/groups/group51.txt
+ create mode 100644 users/groups/group52.txt
+ create mode 100644 users/groups/group53.txt
+ create mode 100644 users/groups/group54.txt
+ create mode 100644 users/groups/group55.txt
+ create mode 100644 users/groups/group56.txt
+ create mode 100644 users/groups/group57.txt
+ create mode 100644 users/groups/group58.txt
+ create mode 100644 users/groups/group59.txt
+ create mode 100644 users/groups/group6.txt
+ create mode 100644 users/groups/group60.txt
+ create mode 100644 users/groups/group61.txt
+ create mode 100644 users/groups/group62.txt
+ create mode 100644 users/groups/group63.txt
+ create mode 100644 users/groups/group64.txt
+ create mode 100644 users/groups/group65.txt
+ create mode 100644 users/groups/group66.txt
+ create mode 100644 users/groups/group67.txt
+ create mode 100644 users/groups/group68.txt
+ create mode 100644 users/groups/group69.txt
+ create mode 100644 users/groups/group7.txt
+ create mode 100644 users/groups/group8.txt
+ create mode 100644 users/groups/group9.txt
+gitpod /workspace/aaa/users/groups (main) $ cd ..
+gitpod /workspace/aaa/users (main) $ mkdir subjects
+gitpod /workspace/aaa/users (main) $ cd subjects
+gitpod /workspace/aaa/users/subjects (main) $ for i in {1..50}; do echo "dd $i" > "subject$i.txt"; done
+gitpod /workspace/aaa/users/subjects (main) $ git add .
+gitpod /workspace/aaa/users/subjects (main) $ git commit -m "iu"
+[main 2b111c2] iu
+ 50 files changed, 50 insertions(+)
+ create mode 100644 users/subjects/subject1.txt
+ create mode 100644 users/subjects/subject10.txt
+ create mode 100644 users/subjects/subject11.txt
+ create mode 100644 users/subjects/subject12.txt
+ create mode 100644 users/subjects/subject13.txt
+ create mode 100644 users/subjects/subject14.txt
+ create mode 100644 users/subjects/subject15.txt
+ create mode 100644 users/subjects/subject16.txt
+ create mode 100644 users/subjects/subject17.txt
+ create mode 100644 users/subjects/subject18.txt
+ create mode 100644 users/subjects/subject19.txt
+ create mode 100644 users/subjects/subject2.txt
+ create mode 100644 users/subjects/subject20.txt
+ create mode 100644 users/subjects/subject21.txt
+ create mode 100644 users/subjects/subject22.txt
+ create mode 100644 users/subjects/subject23.txt
+ create mode 100644 users/subjects/subject24.txt
+ create mode 100644 users/subjects/subject25.txt
+ create mode 100644 users/subjects/subject26.txt
+ create mode 100644 users/subjects/subject27.txt
+ create mode 100644 users/subjects/subject28.txt
+ create mode 100644 users/subjects/subject29.txt
+ create mode 100644 users/subjects/subject3.txt
+ create mode 100644 users/subjects/subject30.txt
+ create mode 100644 users/subjects/subject31.txt
+ create mode 100644 users/subjects/subject32.txt
+ create mode 100644 users/subjects/subject33.txt
+ create mode 100644 users/subjects/subject34.txt
+ create mode 100644 users/subjects/subject35.txt
+ create mode 100644 users/subjects/subject36.txt
+ create mode 100644 users/subjects/subject37.txt
+ create mode 100644 users/subjects/subject38.txt
+ create mode 100644 users/subjects/subject39.txt
+ create mode 100644 users/subjects/subject4.txt
+ create mode 100644 users/subjects/subject40.txt
+ create mode 100644 users/subjects/subject41.txt
+ create mode 100644 users/subjects/subject42.txt
+ create mode 100644 users/subjects/subject43.txt
+ create mode 100644 users/subjects/subject44.txt
+ create mode 100644 users/subjects/subject45.txt
+ create mode 100644 users/subjects/subject46.txt
+ create mode 100644 users/subjects/subject47.txt
+ create mode 100644 users/subjects/subject48.txt
+ create mode 100644 users/subjects/subject49.txt
+ create mode 100644 users/subjects/subject5.txt
+ create mode 100644 users/subjects/subject50.txt
+ create mode 100644 users/subjects/subject6.txt
+ create mode 100644 users/subjects/subject7.txt
+ create mode 100644 users/subjects/subject8.txt
+ create mode 100644 users/subjects/subject9.txt
+gitpod /workspace/aaa/users/subjects (main) $ cd ..
+gitpod /workspace/aaa/users (main) $ git mv groups main
+gitpod /workspace/aaa/users (main) $ cd groups
+bash: cd: groups: No such file or directory
+gitpod /workspace/aaa/users (main) $ git mv groups users
+fatal: bad source, source=users/groups, destination=users/users
+gitpod /workspace/aaa/users (main) $ git mv groups groups
+fatal: bad source, source=users/groups, destination=users/groups
+gitpod /workspace/aaa/users (main) $ cd ..
+gitpod /workspace/aaa (main) $ cd groups
+bash: cd: groups: No such file or directory
+gitpod /workspace/aaa (main) $ mkdir groups
+gitpod /workspace/aaa (main) $ cd groups
+gitpod /workspace/aaa/groups (main) $ for i in {1..69}; do echo "dd $i" > "group$i.txt"; done
+gitpod /workspace/aaa/groups (main) $ git add .
+gitpod /workspace/aaa/groups (main) $ git commit -m "iu"
+[main 3fbe200] iu
+ 138 files changed, 69 insertions(+)
+ rename {users/groups => groups}/group1.txt (100%)
+ rename {users/groups => groups}/group10.txt (100%)
+ rename {users/groups => groups}/group11.txt (100%)
+ rename {users/groups => groups}/group12.txt (100%)
+ rename {users/groups => groups}/group13.txt (100%)
+ rename {users/groups => groups}/group14.txt (100%)
+ rename {users/groups => groups}/group15.txt (100%)
+ rename {users/groups => groups}/group16.txt (100%)
+ rename {users/groups => groups}/group17.txt (100%)
+ rename {users/groups => groups}/group18.txt (100%)
+ rename {users/groups => groups}/group19.txt (100%)
+ rename {users/groups => groups}/group2.txt (100%)
+ rename {users/groups => groups}/group20.txt (100%)
+ rename {users/groups => groups}/group21.txt (100%)
+ rename {users/groups => groups}/group22.txt (100%)
+ rename {users/groups => groups}/group23.txt (100%)
+ rename {users/groups => groups}/group24.txt (100%)
+ rename {users/groups => groups}/group25.txt (100%)
+ rename {users/groups => groups}/group26.txt (100%)
+ rename {users/groups => groups}/group27.txt (100%)
+ rename {users/groups => groups}/group28.txt (100%)
+ rename {users/groups => groups}/group29.txt (100%)
+ rename {users/groups => groups}/group3.txt (100%)
+ rename {users/groups => groups}/group30.txt (100%)
+ rename {users/groups => groups}/group31.txt (100%)
+ rename {users/groups => groups}/group32.txt (100%)
+ rename {users/groups => groups}/group33.txt (100%)
+ rename {users/groups => groups}/group34.txt (100%)
+ rename {users/groups => groups}/group35.txt (100%)
+ rename {users/groups => groups}/group36.txt (100%)
+ rename {users/groups => groups}/group37.txt (100%)
+ rename {users/groups => groups}/group38.txt (100%)
+ rename {users/groups => groups}/group39.txt (100%)
+ rename {users/groups => groups}/group4.txt (100%)
+ rename {users/groups => groups}/group40.txt (100%)
+ rename {users/groups => groups}/group41.txt (100%)
+ rename {users/groups => groups}/group42.txt (100%)
+ rename {users/groups => groups}/group43.txt (100%)
+ rename {users/groups => groups}/group44.txt (100%)
+ rename {users/groups => groups}/group45.txt (100%)
+ rename {users/groups => groups}/group46.txt (100%)
+ rename {users/groups => groups}/group47.txt (100%)
+ rename {users/groups => groups}/group48.txt (100%)
+ rename {users/groups => groups}/group49.txt (100%)
+ rename {users/groups => groups}/group5.txt (100%)
+ rename {users/groups => groups}/group50.txt (100%)
+ rename {users/groups => groups}/group51.txt (100%)
+ rename {users/groups => groups}/group52.txt (100%)
+ rename {users/groups => groups}/group53.txt (100%)
+ rename {users/groups => groups}/group54.txt (100%)
+ rename {users/groups => groups}/group55.txt (100%)
+ rename {users/groups => groups}/group56.txt (100%)
+ rename {users/groups => groups}/group57.txt (100%)
+ rename {users/groups => groups}/group58.txt (100%)
+ rename {users/groups => groups}/group59.txt (100%)
+ rename {users/groups => groups}/group6.txt (100%)
+ rename {users/groups => groups}/group60.txt (100%)
+ rename {users/groups => groups}/group61.txt (100%)
+ rename {users/groups => groups}/group62.txt (100%)
+ rename {users/groups => groups}/group63.txt (100%)
+ rename {users/groups => groups}/group64.txt (100%)
+ rename {users/groups => groups}/group65.txt (100%)
+ rename {users/groups => groups}/group66.txt (100%)
+ rename {users/groups => groups}/group67.txt (100%)
+ rename {users/groups => groups}/group68.txt (100%)
+ rename {users/groups => groups}/group69.txt (100%)
+ rename {users/groups => groups}/group7.txt (100%)
+ rename {users/groups => groups}/group8.txt (100%)
+ rename {users/groups => groups}/group9.txt (100%)
+ create mode 100644 users/main/group1.txt
+ create mode 100644 users/main/group10.txt
+ create mode 100644 users/main/group11.txt
+ create mode 100644 users/main/group12.txt
+ create mode 100644 users/main/group13.txt
+ create mode 100644 users/main/group14.txt
+ create mode 100644 users/main/group15.txt
+ create mode 100644 users/main/group16.txt
+ create mode 100644 users/main/group17.txt
+ create mode 100644 users/main/group18.txt
+ create mode 100644 users/main/group19.txt
+ create mode 100644 users/main/group2.txt
+ create mode 100644 users/main/group20.txt
+ create mode 100644 users/main/group21.txt
+ create mode 100644 users/main/group22.txt
+ create mode 100644 users/main/group23.txt
+ create mode 100644 users/main/group24.txt
+ create mode 100644 users/main/group25.txt
+ create mode 100644 users/main/group26.txt
+ create mode 100644 users/main/group27.txt
+ create mode 100644 users/main/group28.txt
+ create mode 100644 users/main/group29.txt
+ create mode 100644 users/main/group3.txt
+ create mode 100644 users/main/group30.txt
+ create mode 100644 users/main/group31.txt
+ create mode 100644 users/main/group32.txt
+ create mode 100644 users/main/group33.txt
+ create mode 100644 users/main/group34.txt
+ create mode 100644 users/main/group35.txt
+ create mode 100644 users/main/group36.txt
+ create mode 100644 users/main/group37.txt
+ create mode 100644 users/main/group38.txt
+ create mode 100644 users/main/group39.txt
+ create mode 100644 users/main/group4.txt
+ create mode 100644 users/main/group40.txt
+ create mode 100644 users/main/group41.txt
+ create mode 100644 users/main/group42.txt
+ create mode 100644 users/main/group43.txt
+ create mode 100644 users/main/group44.txt
+ create mode 100644 users/main/group45.txt
+ create mode 100644 users/main/group46.txt
+ create mode 100644 users/main/group47.txt
+ create mode 100644 users/main/group48.txt
+ create mode 100644 users/main/group49.txt
+ create mode 100644 users/main/group5.txt
+ create mode 100644 users/main/group50.txt
+ create mode 100644 users/main/group51.txt
+ create mode 100644 users/main/group52.txt
+ create mode 100644 users/main/group53.txt
+ create mode 100644 users/main/group54.txt
+ create mode 100644 users/main/group55.txt
+ create mode 100644 users/main/group56.txt
+ create mode 100644 users/main/group57.txt
+ create mode 100644 users/main/group58.txt
+ create mode 100644 users/main/group59.txt
+ create mode 100644 users/main/group6.txt
+ create mode 100644 users/main/group60.txt
+ create mode 100644 users/main/group61.txt
+ create mode 100644 users/main/group62.txt
+ create mode 100644 users/main/group63.txt
+ create mode 100644 users/main/group64.txt
+ create mode 100644 users/main/group65.txt
+ create mode 100644 users/main/group66.txt
+ create mode 100644 users/main/group67.txt
+ create mode 100644 users/main/group68.txt
+ create mode 100644 users/main/group69.txt
+ create mode 100644 users/main/group7.txt
+ create mode 100644 users/main/group8.txt
+ create mode 100644 users/main/group9.txt
+gitpod /workspace/aaa/groups (main) $ cd ..
+gitpod /workspace/aaa (main) $ mkdir subjects
+gitpod /workspace/aaa (main) $ cd subjects
+gitpod /workspace/aaa/subjects (main) $ for i in {1..50}; do echo "dd $i" > "subject$i.txt"; done
+gitpod /workspace/aaa/subjects (main) $ git add .
+gitpod /workspace/aaa/subjects (main) $ git commit -m "it"
+[main bc7d4ab] it
+ 50 files changed, 50 insertions(+)
+ create mode 100644 subjects/subject1.txt
+ create mode 100644 subjects/subject10.txt
+ create mode 100644 subjects/subject11.txt
+ create mode 100644 subjects/subject12.txt
+ create mode 100644 subjects/subject13.txt
+ create mode 100644 subjects/subject14.txt
+ create mode 100644 subjects/subject15.txt
+ create mode 100644 subjects/subject16.txt
+ create mode 100644 subjects/subject17.txt
+ create mode 100644 subjects/subject18.txt
+ create mode 100644 subjects/subject19.txt
+ create mode 100644 subjects/subject2.txt
+ create mode 100644 subjects/subject20.txt
+ create mode 100644 subjects/subject21.txt
+ create mode 100644 subjects/subject22.txt
+ create mode 100644 subjects/subject23.txt
+ create mode 100644 subjects/subject24.txt
+ create mode 100644 subjects/subject25.txt
+ create mode 100644 subjects/subject26.txt
+ create mode 100644 subjects/subject27.txt
+ create mode 100644 subjects/subject28.txt
+ create mode 100644 subjects/subject29.txt
+ create mode 100644 subjects/subject3.txt
+ create mode 100644 subjects/subject30.txt
+ create mode 100644 subjects/subject31.txt
+ create mode 100644 subjects/subject32.txt
+ create mode 100644 subjects/subject33.txt
+ create mode 100644 subjects/subject34.txt
+ create mode 100644 subjects/subject35.txt
+ create mode 100644 subjects/subject36.txt
+ create mode 100644 subjects/subject37.txt
+ create mode 100644 subjects/subject38.txt
+ create mode 100644 subjects/subject39.txt
+ create mode 100644 subjects/subject4.txt
+ create mode 100644 subjects/subject40.txt
+ create mode 100644 subjects/subject41.txt
+ create mode 100644 subjects/subject42.txt
+ create mode 100644 subjects/subject43.txt
+ create mode 100644 subjects/subject44.txt
+ create mode 100644 subjects/subject45.txt
+ create mode 100644 subjects/subject46.txt
+ create mode 100644 subjects/subject47.txt
+ create mode 100644 subjects/subject48.txt
+ create mode 100644 subjects/subject49.txt
+ create mode 100644 subjects/subject5.txt
+ create mode 100644 subjects/subject50.txt
+ create mode 100644 subjects/subject6.txt
+ create mode 100644 subjects/subject7.txt
+ create mode 100644 subjects/subject8.txt
+ create mode 100644 subjects/subject9.txt
